@@ -1,0 +1,35 @@
+.pokemonList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemonItem {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  transition: transform 0.2s;
+}
+
+.pokemonItem:hover {
+  transform: scale(1.05);
+}
+
+.pokemonItem img {
+  width: 120px;
+  height: 120px;
+}
+
+.pokemonItem a {
+  color: #000000; /* Link color set to black */
+  text-decoration: none;
+}
+
+.pokemonItem a:visited {
+  color: #000000; /* Visited link color set to black */
+}

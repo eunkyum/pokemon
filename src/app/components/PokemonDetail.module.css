@@ -1,0 +1,86 @@
+.pokemonDetail {
+  text-align: center;
+  margin: 20px auto;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.pokemonDetail img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.backLink {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.backLink:hover {
+  color: #a9a9a9;
+}
+
+.detailSection {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.detailSection h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.detailSection ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.detailSection ul li {
+  margin: 5px 0px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.tag.type {
+  background-color: #ffcc00;
+}
+
+.tag.ability {
+  background-color: #77cc55;
+}
+
+.tag.move {
+  background-color: #d3d3d3;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.infoRow div {
+  margin: 5px 20px; /* 키와 몸무게 간의 공간을 조금 더 벌립니다. */
+  text-align: center;
+  min-width: 100px;
+}
